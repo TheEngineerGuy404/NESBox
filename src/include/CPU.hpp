@@ -19,7 +19,7 @@ namespace NESBox
         0xFF-0x80
     };
 
-    class CPU : protected Hardware
+    class CPU : public Hardware
     {
     private:
         /*
@@ -38,7 +38,7 @@ namespace NESBox
         uint16_t pgrm_counter;
 
         // Status register
-        bool status[];
+        uint8_t status;
         
 
     public:

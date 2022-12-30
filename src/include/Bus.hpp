@@ -43,6 +43,11 @@ namespace NESBox
 
         void WriteAddress(uint16_t address, uint8_t value);
         uint8_t ReadAddress(uint16_t address);
+
+        virtual void Write(uint16_t address, uint8_t value)
+        {
+
+        }
     };
 }
 

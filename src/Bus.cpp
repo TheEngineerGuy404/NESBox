@@ -34,7 +34,7 @@ namespace NESBox
             uint16_t max_addr = h->GetAddressRange()[1];
             if ((address >= min_addr) && (address <= max_addr))
             {
-                h->address_range[address - min_addr] = value;
+                h->Write(address, value);
             }
         }
     }
