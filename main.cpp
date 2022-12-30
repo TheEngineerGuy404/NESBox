@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 
+
 namespace NES
 {
 	class Clock;

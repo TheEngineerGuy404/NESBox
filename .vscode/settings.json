@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\thepa\\OneDrive\\Desktop\\New folder\\NESBox",
+            "binaryPath": "c:\\Users\\thepa\\OneDrive\\Desktop\\New folder\\NESBox\\main.cpp.o",
+            "binaryArgs": []
+        }
+    ]
+}
