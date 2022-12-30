@@ -1,4 +1,2 @@
 obj: $(wildcard *.cpp)
-	gcc -o $?.o $?
-output $wildcard *.o:
-	gcc -o main.exe $?
+	gcc -Isrc/include -std=c++11 -o $?.exe $?
