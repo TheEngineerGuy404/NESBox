@@ -1,5 +1,4 @@
 #include "Bus.hpp"
-#include <string>
 #ifndef _CPU_H
 #define _CPU_H
 
@@ -39,12 +38,12 @@ namespace NESBox
 
         // Status register
         uint8_t status;
-        
+
 
     public:
         CPU();
         ~CPU();
-        uint8_t Instruction(uint8_t instruction);   
+        uint8_t Instruction(uint8_t instruction);
     };
 }
 
