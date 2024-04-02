@@ -1,11 +1,6 @@
-#include <cstdint>
-#include <vector>
-#include <string>
-#include "Bus.hpp"
+#include <stdlib.h>
 
-int WinMain()
-{
+int main(int argc, char* argv[]) {
 
-
-	return 0;
+    return 0;
 }
